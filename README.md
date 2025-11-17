@@ -3,10 +3,12 @@
 This project is a **TypeScript Study Tracker** that demonstrates core TypeScript features in a simple console application.  
 It uses classes, arrays, recursion, asynchronous functions, and exception handling to simulate tracking small study sessions.
 
-The app:
+**Demo Video:** https://youtu.be/Zx7H2MrNGfs
 
-- Prints sessions and summaries to the terminal.
-- Uses a `StudySession` class.
+The application:
+
+- Prints study sessions and summaries to the terminal.
+- Uses a `StudySession` class to model each session.
 - Calculates total minutes with a recursive function.
 - Loads extra sessions asynchronously.
 - Demonstrates throwing and handling exceptions.
@@ -15,9 +17,13 @@ The app:
 
 - Language: TypeScript (ES2020, CommonJS)
 - Runtime: Node.js
-- Tools: VS Code, `ts-node`, `tsc`, Git/GitHub
+- Tools:
+  - Visual Studio Code
+  - `ts-node` for running TypeScript directly
+  - `tsc` for compiling to JavaScript
+  - Git and GitHub for version control
 
-## How to Run
+# How to Run
 
 ```bash
 npm install
