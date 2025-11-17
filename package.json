@@ -1,0 +1,17 @@
+{
+  "name": "typescript-study-tracker",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Module 1 - TypeScript Study Tracker",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
